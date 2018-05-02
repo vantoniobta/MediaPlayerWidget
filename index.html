@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Player Vertical With Preroll</title>
+</head>
+<body >
+
+<div style="background:#f5f5f5;width:300px;height:250px;" >
+
+        <td-player
+                id="td-player"
+                type="vertical"
+                defaultcoverart="https://agencias-multimedios.s3.amazonaws.com/2018/abril/CalienteMx_300x250/FONDO_copia.png"
+                highlightcolor="#FFFFFF"
+                primarycolor="#FAD000"
+                station="TRITONRADIOMUSIC"
+                autostart="true"
+                trackingparameters="{'key':'value','key2': 'value2'}"
+                renderingmode="Html5"
+                >
+        </td-player>
+
+        <td-adplayer id="td-adplayer"
+             client="vast"
+             tag="http://proserv.tritondigital.com/vast/vast2_linear_webteam.xml"
+        >
+        </td-adplayer>
+</div>
+<script src="http://widgets.listenlive.co/1.0/tdwidgets.min.js"></script>
+</body>
+</html>
